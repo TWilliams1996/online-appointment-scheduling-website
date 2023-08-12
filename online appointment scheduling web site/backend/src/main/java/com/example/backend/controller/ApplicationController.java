@@ -50,7 +50,7 @@ public class ApplicationController {
         consultant2.setCountry("UK");
 
         Consultant consultant3 = new Consultant();
-        consultant3.setName("Hale");
+        consultant3.setName("Newton");
         consultant3.setCountry("USA");
 
         consultantRepository.save(consultant1);
